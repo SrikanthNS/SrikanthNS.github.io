@@ -1,6 +1,6 @@
 # SrikanthNS.github.io
 
-> Shuufle and Sort
+> Shuffle and Sort
 
 The page consists of 9 numbered cards which can be manipulated by using the shuffle and short buttons
 
