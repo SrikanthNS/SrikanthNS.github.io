@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shuffle and Sort</title>
+    <link rel="stylesheet" href="shuffle-sort.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 960px)"
+      href="widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 365px) and (max-width: 959px)"
+      href="smallscreen.css"
+    />
+    <script src="shuffle-sort.js"></script>
+    <script>
+      document.addEventListener(
+        'DOMContentLoaded',
+        function () {
+          prepareDivs()
+          sortShuffleDivs('shuffle')
+        },
+        false
+      )
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        Shuffle and Sort
+      </div>
+      <main>
+        <div class="nav">
+          <button type="button" onclick="sortShuffleDivs('shuffle')">
+            Shuffle
+          </button>
+          <button type="button" onclick="sortShuffleDivs('sort')">Sort</button>
+        </div>
+        <div id="sort-shuffle"></div>
+      </main>
+      <div class="footer">
+        <p>Shuffle and Sort by Srikanth N S</p>
+      </div>
+    </div>
+  </body>
+</html>

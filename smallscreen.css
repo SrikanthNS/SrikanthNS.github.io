@@ -1,0 +1,39 @@
+.header {
+	background: #141414;
+	text-align: center;
+	line-height: 2;
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+
+.nav {
+	margin: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+div#sort-shuffle div {
+	margin: 5px 0px;
+	width: 100%;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+
+div#sort-shuffle div.content {
+	display: flex;
+}
+
+div#sort-shuffle div span.color-type {
+	width: 2%;
+}
+
+div#sort-shuffle div span.text {
+	background-color: #efefef;
+	width: 98%;
+}
+
+.footer {
+	text-align: center;
+	font-style: italic;
+}
