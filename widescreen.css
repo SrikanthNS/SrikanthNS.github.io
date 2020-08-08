@@ -1,0 +1,64 @@
+.container {
+	margin: 0 auto;
+	width: 35%;
+	min-width: 500px;
+}
+
+.header {
+	text-align: center;
+	line-height: 2;
+	font-size: 1rem;
+}
+
+main {
+	display: flex;
+	flex-direction: row-reverse;
+	background: #efefef;
+}
+
+.nav button {
+	margin: 10px;
+	width: 135px;
+	height: 35px;
+	line-height: 0.5;
+}
+
+.nav {
+	flex: 25%;
+	margin: 10px;
+}
+
+div#sort-shuffle {
+	display: flex;
+	flex: 70%;
+	flex-wrap: wrap;
+	margin: 5px 0px;
+}
+
+div#sort-shuffle div {
+	flex: 33%;
+	text-align: center;
+	line-height: 8rem;
+	color: #ffffff;
+	font-size: 3.5rem;
+	height: 130px;
+	text-shadow: 2px -1px 0px rgba(0, 0, 0, .5);
+}
+
+div#sort-shuffle div .color-type {
+	display: none;
+}
+
+.footer {
+	position: relative;
+	top: -13px;
+	background: #efefef;
+	height: 30px;
+	text-align: center;
+}
+
+.footer p {
+	padding: 5px;
+	font-size: small;
+	font-style: italic;
+}
