@@ -13,5 +13,4 @@ Colour codes used in this design:
  #EFEFEF 
  #72C3DC
 
-Using JavaScript, allow the user
 > visit https://srikanthns.github.io/ to see the Shuffle and Sort feature
